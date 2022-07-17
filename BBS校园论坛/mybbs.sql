@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： 127.0.0.1:3306
--- 生成日期： 2019-01-04 02:42:13
+-- 生成日期： 2022-05-22 02:42:13
 -- 服务器版本： 5.7.23
 -- PHP 版本： 7.2.10
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `forums` (
 --
 
 INSERT INTO `forums` (`id`, `forum_name`, `forum_description`, `subject`, `last_post_time`) VALUES
-(4, '123', 'php', '123', '2019-01-02 00:33:45');
+(4, '123', 'php', '123', ' 2022-05-22 00:13:45');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `member` (
 --
 
 INSERT INTO `member` (`id`, `username`, `password`, `email`, `log_time`) VALUES
-(5, 'admin', '123456', '123456@qq.com', '2019-01-02 00:28:40');
+(5, 'admin', '123456', '123456@qq.com', ' 2022-05-22 00:28:40');
 
 -- --------------------------------------------------------
 
@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `tiopic` (
 --
 
 INSERT INTO `tiopic` (`id`, `author`, `title`, `content`, `last_post_time`, `reply_author`, `reply`, `reply_time`) VALUES
-(3, 'admin', 'php', '            123456789', '2019-01-02 00:35:20', '12', '        121', '2019-01-02 00:57:09');
+(3, 'admin', 'php', '            123456789', ' 2022-05-22 00:35:20', '12', '        121', ' 2022-05-22 00:57:09');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
